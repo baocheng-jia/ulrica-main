@@ -12,6 +12,14 @@ package com.et.ulrica.serach;
  */
 public class SearchAlgorithm {
 
+  public static int sequenceSearch(int[] nums, int target) {
+    for (int i = 0; i < nums.length; i++) {
+      if (nums[i] == target) {
+        return i;
+      }
+    }
+    return -1;
+  }
 
   /**
    * link{https://leetcode.cn/problems/binary-search/} ideas: Binary search is mainly suitable for
@@ -46,7 +54,7 @@ public class SearchAlgorithm {
     int left = 0;
     int mid = 0;
     while (left <= right) {
-      mid = left + (right - left)/2;
+      mid = left + (right - left) / 2;
       if (nums[mid] == target) {
         return mid;
       } else if (nums[mid] > target) {
@@ -55,9 +63,9 @@ public class SearchAlgorithm {
         left = mid + 1;
       }
     }
-    if(nums[mid] > target){
+    if (nums[mid] > target) {
       return mid;
-    }else{
+    } else {
       return mid + 1;
     }
   }

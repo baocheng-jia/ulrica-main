@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ulrica-common" />
         <module name="ulrica-test-service" />
+        <module name="ulrica-tech_doc" />
+        <module name="ulrica-common" />
         <module name="ulrica-leetcode" />
       </profile>
     </annotationProcessing>
