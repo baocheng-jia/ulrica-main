@@ -17,5 +17,6 @@
 
   <modules>
     <module>ulrica-common</module>
+    <module>ulrica-leetcode</module>
   </modules>
 </project>

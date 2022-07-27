@@ -8,13 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ulrica-common" />
         <module name="ulrica-test-service" />
+        <module name="ulrica-leetcode" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ulrica-common" target="1.8" />
-      <module name="ulrica-main" target="1.8" />
-      <module name="ulrica-test-service" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
