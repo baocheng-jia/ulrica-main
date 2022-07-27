@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ulrica-common/ulrica-common.iml" filepath="$PROJECT_DIR$/ulrica-common/ulrica-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ulrica-main.iml" filepath="$PROJECT_DIR$/.idea/ulrica-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ulrica-test-service/ulrica-test-service.iml" filepath="$PROJECT_DIR$/ulrica-test-service/ulrica-test-service.iml" />
+    </modules>
+  </component>
+</project>
